@@ -38,6 +38,7 @@
                         <hr>
                         <i class="bi bi-person-fill"></i> Nama : {{Auth::user()->name}}
                         <p><i class="bi bi-info-circle-fill"></i> Role : {{Auth::user()->role}}</p>
+                        <a class="btn btn-primary" href="/" role="button">Kembali</a>
                         <a href="/logout" class="btn btn-md btn-outline-danger mb-3 float-right fire" onclick="return confirm('Apakah Anda Yakin Keluar dari sistem ?');"><i class="bi bi-box-arrow-in-left"></i></a>
                         <a href="/create" class="btn btn-md btn-success mb-3 mr-3 float-right"><i class="bi bi-file-earmark-plus-fill"></i></a>
 

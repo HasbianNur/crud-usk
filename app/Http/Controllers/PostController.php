@@ -40,7 +40,7 @@ class PostController extends Controller
     public function create()
     {
         $data = [
-            'title'     => 'View Data'
+            'title'     => 'Create Data'
         ];
         return view('posts.create', $data);
     }

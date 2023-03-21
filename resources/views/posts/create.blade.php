@@ -75,7 +75,7 @@
                             </div>
 
                             <button type="submit" class="btn btn-md btn-primary">Save</button>
-                            <a href="/home" class="btn btn-md btn-secondary">back</a>
+                            <a href="/home" class="btn btn-md btn-secondary">Back</a>
 
                         </form>
                     </div>
